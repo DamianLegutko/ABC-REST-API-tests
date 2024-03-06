@@ -1,0 +1,5 @@
+{
+  "status" : 404,
+  "error" : "Not Found",
+  "path" : "/api/v1/books/601"
+}

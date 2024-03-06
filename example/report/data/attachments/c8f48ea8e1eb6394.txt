@@ -1,0 +1,9 @@
+{
+  "id" : 3254,
+  "name" : "Waiting for the Barbarians",
+  "author" : "Lester Kuphal",
+  "publication" : "Gay Men's Press",
+  "category" : "Classic",
+  "pages" : 10000,
+  "price" : 274.72
+}

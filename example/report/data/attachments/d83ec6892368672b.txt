@@ -1,0 +1,8 @@
+{
+  "name" : "The Soldier's Art",
+  "author" : "Coletta Dach",
+  "publication" : "Firebrand Books",
+  "category" : "Horror",
+  "pages" : 837,
+  "price" : 170.92
+}

@@ -1,0 +1,34 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> GET http://77.102.250.113:17354/api/v1/books/601
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# --> END GET
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/601 (530ms)
+# Set-Cookie: JSESSIONID=947AAC5DA79A91C56DDA15CFA1E10AE9; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:57:17 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 601,
+  "name" : "Test Name",
+  "author" : "Test author",
+  "publication" : "Test publication",
+  "category" : "Test category",
+  "pages" : 999,
+  "price" : 1.0
+}
+
+# <-- END HTTP (136-byte body)------------#######################################################################
+

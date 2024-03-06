@@ -1,0 +1,8 @@
+{
+  "name" : "The Violent Bear It Away",
+  "author" : "Ryan Senger",
+  "publication" : "Salt Publishing",
+  "category" : "Humor",
+  "pages" : 670,
+  "price" : 105.66
+}

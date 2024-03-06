@@ -1,0 +1,9 @@
+{
+  "id" : 3240,
+  "name" : "The Daffodil Sky",
+  "author" : "Mrs. Robbie Lowe",
+  "publication" : "Pantheon Books at Random House",
+  "category" : "Horror",
+  "pages" : 678,
+  "price" : 83.79
+}

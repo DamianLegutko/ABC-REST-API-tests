@@ -1,0 +1,9 @@
+{
+  "id" : 3239,
+  "name" : "A Time to Kill",
+  "author" : "Ms. Toya Wuckert",
+  "publication" : "Paulist Press",
+  "category" : "Mythology",
+  "pages" : 480,
+  "price" : 147.54
+}

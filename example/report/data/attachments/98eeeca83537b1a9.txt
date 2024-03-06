@@ -1,0 +1,8 @@
+{
+  "name" : "I Sing the Body Electric",
+  "author" : "Keven Kovacek",
+  "publication" : "Bloodaxe Books",
+  "category" : "Narrative nonfiction",
+  "pages" : 598,
+  "price" : 196.72
+}

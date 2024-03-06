@@ -1,0 +1,47 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 159
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 22546960,
+  "name" : "Some Buried Caesar",
+  "author" : "Viki Mitchell",
+  "publication" : "Left Book Club",
+  "category" : "Comic/Graphic Novel",
+  "pages" : 126,
+  "price" : 256.75
+}
+
+# --> END POST (159-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 500 http://77.102.250.113:17354/api/v1/books (562ms)
+# Set-Cookie: JSESSIONID=B3B0C255E6ADD259060E07CA5821B370; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:00:44 GMT
+# Connection: close
+# 
+
+{
+  "timestamp" : "2024-03-03T13:00:44.950+00:00",
+  "status" : 500,
+  "error" : "Internal Server Error",
+  "path" : "/api/v1/books"
+}
+
+# <-- END HTTP (113-byte body)------------#######################################################################
+

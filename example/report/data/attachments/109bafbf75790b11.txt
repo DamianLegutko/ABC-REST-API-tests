@@ -1,0 +1,47 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 145
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "Bury My Heart at Wounded Knee",
+  "author" : "Dr. Delmer Schmidt",
+  "publication" : null,
+  "category" : "Fable",
+  "pages" : 442,
+  "price" : 150.41
+}
+
+# --> END POST (145-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 500 http://77.102.250.113:17354/api/v1/books (607ms)
+# Set-Cookie: JSESSIONID=D05C558F48BE0364E4F406244A3F4507; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:57:31 GMT
+# Connection: close
+# 
+
+{
+  "timestamp" : "2024-03-03T12:57:32.360+00:00",
+  "status" : 500,
+  "error" : "Internal Server Error",
+  "path" : "/api/v1/books"
+}
+
+# <-- END HTTP (113-byte body)------------#######################################################################
+

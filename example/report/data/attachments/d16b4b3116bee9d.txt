@@ -1,0 +1,51 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 152
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "I Sing the Body Electric",
+  "author" : "Lachelle Johnston",
+  "publication" : "Cisco Press",
+  "category" : "Classic",
+  "pages" : 664,
+  "price" : 10000.01
+}
+
+# --> END POST (152-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (620ms)
+# Set-Cookie: JSESSIONID=8C7B4972BDFDB6C8A0EEC13A3B088BF1; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:00:36 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3275,
+  "name" : "I Sing the Body Electric",
+  "author" : "Lachelle Johnston",
+  "publication" : "Cisco Press",
+  "category" : "Classic",
+  "pages" : 664,
+  "price" : 10000.01
+}
+
+# <-- END HTTP (152-byte body)------------#######################################################################
+

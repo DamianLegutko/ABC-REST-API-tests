@@ -1,0 +1,8 @@
+{
+  "name" : "I Sing the Body Electric",
+  "author" : "Lachelle Johnston",
+  "publication" : "Cisco Press",
+  "category" : "Classic",
+  "pages" : 664,
+  "price" : 307.49
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "A Summer Bird-Cage",
+  "author" : "Sirena Hansen",
+  "publication" : "Marshall Pickering",
+  "category" : "Horror",
+  "pages" : 870,
+  "price" : 137.63
+}

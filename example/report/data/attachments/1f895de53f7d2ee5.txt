@@ -1,0 +1,8 @@
+{
+  "name" : "Jacob Have I Loved",
+  "author" : "Titus Christiansen",
+  "publication" : "Imperial War Museum",
+  "category" : "Mythopoeia",
+  "pages" : 357,
+  "price" : 196.88
+}

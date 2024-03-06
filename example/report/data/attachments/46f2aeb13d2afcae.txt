@@ -1,0 +1,8 @@
+{
+  "name" : "An Acceptable Time",
+  "author" : "Augustine Wisozk",
+  "publication" : "Hodder Headline",
+  "category" : "Speech",
+  "pages" : 190,
+  "price" : 263.47
+}

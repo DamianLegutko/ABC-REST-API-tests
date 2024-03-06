@@ -1,0 +1,8 @@
+{
+  "name" : "Behold the Man",
+  "author" : "Gale Douglas",
+  "publication" : "Blue Ribbon Books",
+  "category" : "Horror",
+  "pages" : 62,
+  "price" : 71.47
+}

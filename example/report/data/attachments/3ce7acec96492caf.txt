@@ -1,0 +1,9 @@
+{
+  "id" : 3296,
+  "name" : "Carrion Comfort",
+  "author" : "Coreen Roob",
+  "publication" : "Kensington Books",
+  "category" : "Textbook",
+  "pages" : 921,
+  "price" : 242.00
+}

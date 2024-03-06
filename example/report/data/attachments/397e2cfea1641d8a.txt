@@ -1,0 +1,48 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> PUT http://77.102.250.113:17354/api/v1/books/3245
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 156
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 3245,
+  "name" : "The Way Through the Woods",
+  "author" : "Lenny Schmitt",
+  "publication" : "New Holland Publishers",
+  "category" : "Humor",
+  "pages" : 700,
+  "price" : 149.38
+}
+
+# --> END PUT (156-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3245 (585ms)
+# Set-Cookie: JSESSIONID=16165063B6A51C86CBA62D45D9E9A115; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:57:58 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3245,
+  "name" : "The Way Through the Woods",
+  "author" : "Lenny Schmitt",
+  "publication" : "New Holland Publishers",
+  "category" : "Humor",
+  "pages" : 700,
+  "price" : 149.38
+}
+
+# <-- END HTTP (156-byte body)------------#######################################################################
+

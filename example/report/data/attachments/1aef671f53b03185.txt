@@ -1,0 +1,8 @@
+{
+  "name" : "An Evil Cradling",
+  "author" : "Cecila Klein",
+  "publication" : "George Newnes",
+  "category" : "Fiction narrative",
+  "pages" : 377,
+  "price" : 70.51
+}

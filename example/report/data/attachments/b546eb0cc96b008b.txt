@@ -1,0 +1,5 @@
+{
+  "status" : 400,
+  "error" : "Missing required field: price",
+  "path" : "/api/v1/books/3261"
+}

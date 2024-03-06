@@ -1,0 +1,8 @@
+{
+  "name" : "In a Glass Darkly",
+  "author" : "Agustin Koss",
+  "publication" : "Fearless Books",
+  "category" : "Fiction in verse",
+  "pages" : 445,
+  "price" : 312.68
+}

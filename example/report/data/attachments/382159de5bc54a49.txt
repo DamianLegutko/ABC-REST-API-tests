@@ -1,0 +1,48 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> PUT http://77.102.250.113:17354/api/v1/books/3260
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 119
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 3260,
+  "name" : null,
+  "author" : "Sparkle Jenkins",
+  "publication" : "Newnes",
+  "category" : "Humor",
+  "pages" : 308,
+  "price" : 328.43
+}
+
+# --> END PUT (119-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3260 (602ms)
+# Set-Cookie: JSESSIONID=6D586D5A380CCCB16C69FF51F078D286; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:58:20 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3260,
+  "name" : null,
+  "author" : "Sparkle Jenkins",
+  "publication" : "Newnes",
+  "category" : "Humor",
+  "pages" : 308,
+  "price" : 328.43
+}
+
+# <-- END HTTP (119-byte body)------------#######################################################################
+

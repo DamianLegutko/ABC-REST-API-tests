@@ -1,0 +1,8 @@
+{
+  "name" : "The Skull Beneath the Skin",
+  "author" : "Mr. Myra Dooley",
+  "publication" : "Ladybird Books",
+  "category" : "Western",
+  "pages" : 157,
+  "price" : 205.59
+}

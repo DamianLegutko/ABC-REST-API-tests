@@ -1,0 +1,9 @@
+{
+  "id" : 3281,
+  "name" : "Look to Windward",
+  "author" : "Shona Gottlieb",
+  "publication" : "Hawthorne Books",
+  "category" : "Fanfiction",
+  "pages" : 10000,
+  "price" : 256.50
+}

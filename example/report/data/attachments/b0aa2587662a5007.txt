@@ -1,0 +1,8 @@
+{
+  "name" : "Tiger! Tiger!",
+  "author" : "Sabra O'Keefe II",
+  "publication" : "Paulist Press",
+  "category" : "Science fiction",
+  "pages" : 707,
+  "price" : 311.90
+}

@@ -1,0 +1,48 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> PUT http://77.102.250.113:17354/api/v1/books/3301
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 145
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 3301,
+  "name" : "A Passage to India",
+  "author" : "Melissia Toy",
+  "publication" : "Ballantine Books",
+  "category" : "Classic",
+  "pages" : 7117,
+  "price" : 249.21
+}
+
+# --> END PUT (145-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3301 (567ms)
+# Set-Cookie: JSESSIONID=F583F4C81F0F972D1E4313AF641857E3; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:01:17 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3301,
+  "name" : "A Passage to India",
+  "author" : "Melissia Toy",
+  "publication" : "Ballantine Books",
+  "category" : "Classic",
+  "pages" : 582,
+  "price" : 249.21
+}
+
+# <-- END HTTP (144-byte body)------------#######################################################################
+

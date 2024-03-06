@@ -1,0 +1,9 @@
+{
+  "id" : 3221,
+  "name" : "Taming a Sea Horse",
+  "author" : "Miss Darrin Mosciski",
+  "publication" : "Boydell & Brewer",
+  "category" : "Biography/Autobiography",
+  "pages" : 736,
+  "price" : 179.93
+}

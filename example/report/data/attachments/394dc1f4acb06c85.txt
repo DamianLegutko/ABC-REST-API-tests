@@ -1,0 +1,9 @@
+{
+  "id" : 3242,
+  "name" : "ąęłńóśźżĄĘŁŃÓŚŹŻ",
+  "author" : "ąęłńóśźżĄĘŁŃÓŚŹŻ",
+  "publication" : "ąęłńóśźżĄĘŁŃÓŚŹŻ",
+  "category" : "Biography/Autobiography",
+  "pages" : 317,
+  "price" : 186.63
+}

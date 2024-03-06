@@ -1,0 +1,51 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 161
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "The Skull Beneath the Skin",
+  "author" : "Rocco Breitenberg",
+  "publication" : "Indiana University Press",
+  "category" : "Humor",
+  "pages" : 756,
+  "price" : 0.01
+}
+
+# --> END POST (161-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (602ms)
+# Set-Cookie: JSESSIONID=56CBC538373328379F54A65E4A687C32; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:00:34 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3273,
+  "name" : "The Skull Beneath the Skin",
+  "author" : "Rocco Breitenberg",
+  "publication" : "Indiana University Press",
+  "category" : "Humor",
+  "pages" : 756,
+  "price" : 0.01
+}
+
+# <-- END HTTP (161-byte body)------------#######################################################################
+

@@ -1,0 +1,51 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 165
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "The Heart Is a Lonely Hunter",
+  "author" : "Jordan Shields",
+  "publication" : "Banner of Truth Trust",
+  "category" : "Metafiction",
+  "pages" : 223,
+  "price" : 258.63
+}
+
+# --> END POST (165-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (606ms)
+# Set-Cookie: JSESSIONID=A37E66C97B5BC36EF18853D4435D44A0; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:58:09 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3252,
+  "name" : "The Heart Is a Lonely Hunter",
+  "author" : "Jordan Shields",
+  "publication" : "Banner of Truth Trust",
+  "category" : "Metafiction",
+  "pages" : 223,
+  "price" : 258.63
+}
+
+# <-- END HTTP (165-byte body)------------#######################################################################
+

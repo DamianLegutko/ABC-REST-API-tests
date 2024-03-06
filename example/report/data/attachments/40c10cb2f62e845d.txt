@@ -1,0 +1,48 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> PUT http://77.102.250.113:17354/api/v1/books/3258
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 140
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 3258,
+  "name" : "Paths of Glory",
+  "author" : "Lacy Jacobs",
+  "publication" : "Barrie & Jenkins",
+  "category" : "Mythopoeia",
+  "pages" : 706,
+  "price" : 0.0
+}
+
+# --> END PUT (140-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3258 (793ms)
+# Set-Cookie: JSESSIONID=0BB77095ED315CE1B03A5693982C39A2; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:58:18 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3258,
+  "name" : "Paths of Glory",
+  "author" : "Lacy Jacobs",
+  "publication" : "Barrie & Jenkins",
+  "category" : "Mythopoeia",
+  "pages" : 706,
+  "price" : 0.0
+}
+
+# <-- END HTTP (139-byte body)------------#######################################################################
+

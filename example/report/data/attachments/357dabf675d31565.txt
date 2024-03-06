@@ -1,0 +1,8 @@
+{
+  "name" : "The Man Within",
+  "author" : "Blanche Beer",
+  "publication" : "Mandrake Press",
+  "category" : "Tall tale",
+  "pages" : 872,
+  "price" : 249.18
+}

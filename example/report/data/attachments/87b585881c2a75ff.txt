@@ -1,0 +1,9 @@
+{
+  "id" : 3250,
+  "name" : "A Glass of Blessings",
+  "author" : "Kory Pfannerstill",
+  "publication" : "Harper & Row",
+  "category" : "Tall tale",
+  "pages" : 611,
+  "price" : 35.00
+}

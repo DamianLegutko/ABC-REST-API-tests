@@ -1,0 +1,48 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> PUT http://77.102.250.113:17354/api/v1/books/3306
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 159
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 3306,
+  "name" : "For Whom the Bell Tolls",
+  "author" : "Sheree Pagac PhD",
+  "publication" : "Borgo Press",
+  "category" : "Historical fiction",
+  "pages" : 10001,
+  "price" : 4.06
+}
+
+# --> END PUT (159-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3306 (579ms)
+# Set-Cookie: JSESSIONID=29733B7E1A5CA0A2F177F3187EE6D729; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:01:23 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3306,
+  "name" : "For Whom the Bell Tolls",
+  "author" : "Sheree Pagac PhD",
+  "publication" : "Borgo Press",
+  "category" : "Historical fiction",
+  "pages" : 907,
+  "price" : 4.06
+}
+
+# <-- END HTTP (157-byte body)------------#######################################################################
+

@@ -1,0 +1,8 @@
+{
+  "name" : "Bury My Heart at Wounded Knee",
+  "author" : "Dr. Delmer Schmidt",
+  "publication" : "Hodder & Stoughton",
+  "category" : "Fable",
+  "pages" : 442,
+  "price" : 150.41
+}

@@ -1,0 +1,9 @@
+{
+  "id" : 3267,
+  "name" : "Unweaving the Rainbow",
+  "author" : "Willena Von",
+  "publication" : "D. Reidel",
+  "category" : "Humor",
+  "pages" : 240,
+  "price" : 54.82
+}

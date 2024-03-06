@@ -1,0 +1,9 @@
+{
+  "id" : 3251,
+  "name" : "Recalled to Life",
+  "author" : "Leisa Wehner V",
+  "publication" : "Harlequin Enterprises Ltd",
+  "category" : "Short story",
+  "pages" : 897,
+  "price" : 75.53
+}

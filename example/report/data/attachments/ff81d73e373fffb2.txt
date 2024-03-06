@@ -1,0 +1,9 @@
+{
+  "id" : 3260,
+  "name" : "East of Eden",
+  "author" : "Sparkle Jenkins",
+  "publication" : "Newnes",
+  "category" : "Humor",
+  "pages" : 308,
+  "price" : 328.43
+}

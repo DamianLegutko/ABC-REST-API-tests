@@ -1,0 +1,8 @@
+{
+  "name" : "Blue Remembered Earth",
+  "author" : "Belinda Rohan",
+  "publication" : "Tarpaulin Sky Press",
+  "category" : "Tall tale",
+  "pages" : 283,
+  "price" : 212.30
+}

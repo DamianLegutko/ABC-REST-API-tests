@@ -1,0 +1,8 @@
+{
+  "name" : "This Lime Tree Bower",
+  "author" : "Burton Raynor",
+  "publication" : "Victor Gollancz Ltd",
+  "category" : "Mythology",
+  "pages" : 41,
+  "price" : 149.54
+}

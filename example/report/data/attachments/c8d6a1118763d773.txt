@@ -1,0 +1,9 @@
+{
+  "id" : 3246,
+  "name" : "Postern of Fate",
+  "author" : "Kathryn Botsford",
+  "publication" : "Charles Scribner's Sons",
+  "category" : "Textbook",
+  "pages" : 166,
+  "price" : 80.27
+}

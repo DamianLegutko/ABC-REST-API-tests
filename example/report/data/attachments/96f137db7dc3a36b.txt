@@ -1,0 +1,34 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> GET http://77.102.250.113:17354/api/v1/books/3279
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# --> END GET
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3279 (494ms)
+# Set-Cookie: JSESSIONID=09CCC9CBE732E01410AAD0DD3686236F; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:00:41 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3279,
+  "name" : " .,;:?!\\\"'()[]{}=+-*/",
+  "author" : " .,;:?!\\\"'()[]{}=+-*/",
+  "publication" : " .,;:?!\\\"'()[]{}=+-*/",
+  "category" : "Fiction in verse",
+  "pages" : 16,
+  "price" : 252.64
+}
+
+# <-- END HTTP (175-byte body)------------#######################################################################
+

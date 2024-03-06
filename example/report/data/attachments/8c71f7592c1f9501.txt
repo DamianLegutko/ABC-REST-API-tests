@@ -1,0 +1,8 @@
+{
+  "name" : "Of Mice and Men",
+  "author" : "Miss Keiko Grimes",
+  "publication" : "BBC Books",
+  "category" : "Fiction narrative",
+  "pages" : 374,
+  "price" : 52.50
+}

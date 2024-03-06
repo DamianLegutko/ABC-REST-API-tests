@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bug list for Book service</title>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+		<style>
+		.card-header {
+			font-weight: bold;
+			font-size: 1.5em;
+			}
+			.btn-link {
+			text-decoration: none;
+			color: black;
+			}
+			.btn-link:hover {
+			color: black;
+			}
+			.nested-collapse {
+			margin-left: 1em;
+			}
+			.page-header {
+			margin-bottom: 2em;
+			text-align: center;
+			}
+			.label {
+            display: inline-block;
+            padding: .25em .4em;
+            font-size: 75%;
+            font-weight: 700;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: .25rem;
+        }
+        .label-blocker { background-color: #d9534f; }
+        .label-critical { background-color: #ff851b; }
+        .label-major { background-color: #ffdc00; }
+        .label-minor { background-color: #5bc0de; }
+        .label-trivial { background-color: #777; }
+		</style>
+	</head>
+	<body>
+		<div class="container py-5">
+			<div class="page-header">
+				<h1>Bug list for Book service</h1>
+				<p class="lead">Detailed described bug list for Book API service</p>
+				<p>Date: <strong>06/03/2024</strong></p>
+				<p>Author: <strong>Damian Legutko</strong></p>
+			</div>
+			
+			<div class="container mt-5">
+        <h2>Environment</h2>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Parametr</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Server base path</td>
+					
+                    <td><a href="http://77.102.250.113:17354" target="_blank">http://77.102.250.113:17354</a></td>
+                </tr>
+                <tr>
+                    <td>Book service path</td>
+					
+                    <td><a href="http://77.102.250.113:17354/api/v1/books" target="_blank">/api/v1/books</a></td>
+                </tr>
+                <tr>
+                    <td>User used</td>
+                    <td>user4</td>
+                </tr>
+                <tr>
+                    <td>Automation tests repository</td>
+                    <td><a href="https://github.com/DamianLegutko" target="_blank">https://github.com/DamianLegutko</a></td>
+                </tr>
+                <tr>
+                    <td>Automation tests version</td>
+                    <td>1.0.0.06-03-24</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+				
+			<h2>Severities</h2>
+			<div class="container">
+       <p> <span class="label label-blocker">Blocker</span>
+        <span class="label label-critical">Critical</span>
+        <span class="label label-major">Major</span>
+        <span class="label label-minor">Minor</span>
+        <span class="label label-trivial">Trivial</span></p>
+    </div>
+			<div id="accordion">
+				<div class="card">
+					<div class="card-header" id="heading1">
+						<h5 class="mb-0">
+							<button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+								<h2>#1 DELETE Book | Random "Error while deleting book from database"</h2>
+							</button>
+						</h5>
+					</div>
+					<div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordion">
+						<div class="card-body">
+							<p>
+							<h3>Severity</h3>
+							</p> 
+							<span class="label label-minor">Minor</span>
+							<p>
+							<h3>Expected behavior</h3>
+							</p> 
+							Using the DELETE endpoint for an existing book will delete it and return response code 200, along with a message confirming success.
+							<p>
+							<h3>Actual behavior</h3>
+							</p> 
+							In 5-20% of cases, when trying to delete a book, endpoint DELETE returns response code 500, along with the error message "Error while deleting book from database".<br>
+							<button class="btn btn-link" data-toggle="collapse" data-target="#logsCollapse1" aria-expanded="false" aria-controls="logsCollapse1">
+								<p>
+								<h3>Logs<b> --> [CLICK ON TO EXPAND]</b></h3>
+								</p>
+							</button>
+							<div id="logsCollapse1" class="collapse nested-collapse" aria-labelledby="heading1" data-parent="#collapse1">
+								<pre>
+# ################################## R E Q U E S T ##################################
+# --> GET http://77.102.250.113:17354/api/v1/books
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# --> END GET
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (639ms)
+# Set-Cookie: JSESSIONID=096D5E7AB1E039F5009803D894D96758; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Thu, 29 Feb 2024 20:21:54 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+[ {
+  "id" : 546,
+  "name" : "Refactoring: Improving the Design of Existing Code",
+  "author" : "Martin Fowler",
+  "publication" : "Addison-Wesley Professional",
+  "category" : "Programming",
+  "pages" : 448,
+  "price" : 35.5
+},
+.........
+.........
+.........
+.........
+.........
+.........
+ ]
+
+# <-- END HTTP (162441-byte body)
+###################################################################################
+
+# ################################## R E Q U E S T ##################################
+# --> DELETE http://77.102.250.113:17354/api/v1/books/546
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# --> END DELETE
+# ---------------------------------------------------------------------------------
+
+# <-- 500 http://77.102.250.113:17354/api/v1/books/546 (553ms)
+# Set-Cookie: JSESSIONID=1E5FC0D9D2D393199CDC80EF20E30BA0; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: text/plain;charset=UTF-8
+# Content-Length: 39
+# Date: Thu, 29 Feb 2024 20:22:04 GMT
+# Connection: close
+# Error while deleting book from database
+# <-- END HTTP (39-byte body)
+###################################################################################
+					</pre>
+							</div>
+							<p>
+							<h3>Steps to reproduce</h3>
+							</p>
+							To reproduce this bug please execute test case <u>TESTCASE-1</u>. 
+							You can do it manually or use automation test from package 
+							<u>pl.damianlegutko.demo.api.test.crud.domain.books.BookDeleteTest</u> with method <u>delete_existing_book</u>.
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="heading2">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+								<h2>#2 POST Book |  Endpoint POST should accept Polish characters</h2>
+							</button>
+						</h5>
+					</div>
+					<div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
+						<div class="card-body">
+							<p>
+							<h3>Severity</h3>
+							</p> 
+							<span class="label label-major">Major</span>
+							<p>
+							<h3>Expected behavior</h3>
+							</p> For the name, author and publication fields, 
+							the value should accept Polish language characters.
+							<p>
+							<h3>Actual behavior</h3>
+							</p> All polish characters for author and publication fields are saved as '#' character<br>
+							<button class="btn btn-link" data-toggle="collapse" data-target="#logsCollapse2" aria-expanded="false" aria-controls="logsCollapse2">
+								<p>
+								<h3>Logs<b> --> [CLICK ON TO EXPAND]</b></h3>
+								</p>
+							</button>
+							<div id="logsCollapse2" class="collapse nested-collapse" aria-labelledby="heading2" data-parent="#collapse2">
+								<pre>
+# ################################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 196
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "ąęłńóśźżĄĘŁŃÓŚŹŻ",
+  "author" : "ąęłńóśźżĄĘŁŃÓŚŹŻ",
+  "publication" : "ąęłńóśźżĄĘŁŃÓŚŹŻ",
+  "category" : "Short story",
+  "pages" : 493,
+  "price" : 9.71
+}
+
+# --> END POST (196-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (573ms)
+# Set-Cookie: JSESSIONID=594E32639A7375AEAEFFCCAEBF545455; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sat, 02 Mar 2024 17:49:02 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 2370,
+  "name" : "ąęłńóśźżĄĘŁŃÓŚŹŻ",
+  "author" : "################",
+  "publication" : "################",
+  "category" : "Short story",
+  "pages" : 493,
+  "price" : 9.71
+}
+
+# <-- END HTTP (164-byte body)
+###################################################################################
+							</pre>
+							</div>
+							<p>
+							<h3>Steps to reproduce</h3>
+							</p>
+							To reproduce this bug please execute test case <u>TESTCASE-11</u>. 
+							You can do it manually or use automation test from package 
+							<u>pl.damianlegutko.demo.api.test.crud.domain.books.BookPostTest</u> with method <u>create_new_book_with_text_fields_contain_polish_chars</u>.
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="heading3">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+								<h2>#3 POST Book |  Book creation should require mandatory fields</h2>
+							</button>
+						</h5>
+					</div>
+					<div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+						<div class="card-body">
+							<p>
+							<h3>Severity</h3>
+							</p> 
+							<span class="label label-critical">Critical</span>
+							<p>
+							<h3>Expected behavior</h3>
+							</p>POST Book endpoint should validate if name, author, publication, price, category fields are required.
+							<p>
+							<h3>Actual behavior</h3>
+							</p>The endpoint allows to send name, author, publication, price, category with null value. It saves book with that value.<br>
+							<button class="btn btn-link" data-toggle="collapse" data-target="#logsCollapse3" aria-expanded="false" aria-controls="logsCollapse3">
+								<p>
+								<h3>Logs<b> --> [CLICK ON TO EXPAND]</b></h3>
+								</p>
+							</button>
+							<div id="logsCollapse3" class="collapse nested-collapse" aria-labelledby="heading3" data-parent="#collapse3">
+								<pre>
+# ################################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 132
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : null,
+  "author" : "Toby Hilpert",
+  "publication" : "Hodder & Stoughton",
+  "category" : "Mythology",
+  "pages" : 355,
+  "price" : 279.17
+}
+
+# --> END POST (132-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (582ms)
+# Set-Cookie: JSESSIONID=0A8E6A6D953B58384FFE6B9A40AAA586; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sat, 02 Mar 2024 16:07:55 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 2185,
+  "name" : null,
+  "author" : "Toby Hilpert",
+  "publication" : "Hodder & Stoughton",
+  "category" : "Mythology",
+  "pages" : 355,
+  "price" : 279.17
+}
+
+# <-- END HTTP (132-byte body)
+###################################################################################
+							</pre>
+							</div>
+							
+							<p>
+							<h3>Steps to reproduce</h3>
+							</p>
+							To reproduce this bug please execute test case <u>TESTCASE-15, TESTCASE-16, TESTCASE-17, TESTCASE-18, TESTCASE-19, </u>. 
+							You can do it manually or use automation test from package 
+							<u>pl.damianlegutko.demo.api.test.crud.domain.books.BookPostTest</u> with methods:
+							<ul>
+								<li><u>create_new_book_with_null_name</u>, </li>
+								<li><u>create_new_book_with_null_author</u>, </li>
+								<li><u>create_new_book_with_null_publication</u>, </li>
+								<li><u>create_new_book_with_null_price</u>, </li>
+								<li><u>create_new_book_with_null_category</u>.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="heading4">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+								<h2>#4 PUT Book |  No compatibility validation of the id field when updating the book</h2>
+							</button>
+						</h5>
+					</div>
+					<div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+						<div class="card-body">
+							<p>
+							<h3>Severity</h3>
+							</p> 
+							<span class="label label-trivial">Trivial</span>
+							<p>
+							<h3>Expected behavior</h3>
+							</p> When we modify an existing book using the PUT endpoint, which accepts the book's id as a path param, we should check whether the sent payload with the book data is consistent with the id in the path param. This will prevent some cases of accidentally overwriting one book with data from another book.
+							<p>
+							<h3>Actual behavior</h3>
+							</p> The entered id value in payload is ignored and is not overwritten.<br>
+							<button class="btn btn-link" data-toggle="collapse" data-target="#logsCollapse4" aria-expanded="false" aria-controls="logsCollapse4">
+								<p>
+								<h3>Logs<b> --> [CLICK ON TO EXPAND]</b></h3>
+								</p>
+							</button>
+							<div id="logsCollapse4" class="collapse nested-collapse" aria-labelledby="heading4" data-parent="#collapse4">
+								<pre>
+# ################################## R E Q U E S T ##################################
+# --> PUT http://77.102.250.113:17354/api/v1/books/2186
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 188
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 340577869,
+  "name" : "The Wives of Bath",
+  "author" : "Nathanael Nader",
+  "publication" : "United States Government Publishing Office",
+  "category" : "Comic/Graphic Novel",
+  "pages" : 472,
+  "price" : 19.74
+}
+
+# --> END PUT (188-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/2186 (575ms)
+# Set-Cookie: JSESSIONID=A12DE19707E84D3085F6A13DF12E5D2A; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sat, 02 Mar 2024 16:07:57 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 2186,
+  "name" : "The Wives of Bath",
+  "author" : "Nathanael Nader",
+  "publication" : "United States Government Publishing Office",
+  "category" : "Comic/Graphic Novel",
+  "pages" : 472,
+  "price" : 19.74
+}
+
+# <-- END HTTP (183-byte body)
+###################################################################################
+							</pre>
+							</div>
+							<p>
+							<h3>Steps to reproduce</h3>
+							</p>
+							To reproduce this bug please execute test case <u>TESTCASE-37</u>.						
+							You can do it manually or use automation test from package 
+							<u>pl.damianlegutko.demo.api.test.crud.domain.books.BookPutTest</u> with method <u>update_existing_book_with_not_existing_id</u>.
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="heading5">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+								<h2>#5 POST Book | Occasionally returning an incorrect value for pages</h2>
+							</button>
+						</h5>
+					</div>
+					<div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
+						<div class="card-body">
+							<p>
+							<h3>Severity</h3>
+							</p> 
+							<span class="label label-major">Major</span>
+							<p>
+							<h3>Expected behavior</h3>
+							</p>The business assumption is that if we specify a certain number of pages when creating a book, this value will be saved each time without any changes.
+							<p>
+							<h3>Actual behavior</h3>
+							</p> It very rarely happens that after sending a payload using the POST endpoint to create a new book, we receive a payload of this book with a changed 'pages' value in response.<br>
+							<button class="btn btn-link" data-toggle="collapse" data-target="#logsCollapse5" aria-expanded="false" aria-controls="logsCollapse5">
+								<p>
+								<h3>Logs<b> --> [CLICK ON TO EXPAND]</b></h3>
+								</p>
+							</button>
+							<div id="logsCollapse5" class="collapse nested-collapse" aria-labelledby="heading5" data-parent="#collapse5">
+								<pre>
+# ################################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 151
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "The Last Enemy",
+  "author" : "Ivory Greenfelder",
+  "publication" : "Gefen Publishing House",
+  "category" : "Mythology",
+  "pages" : 675,
+  "price" : 0.01
+}
+
+# --> END POST (151-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (585ms)
+# Set-Cookie: JSESSIONID=9EE23DE12EF46C4A479FBDE8EEB29BA8; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sat, 02 Mar 2024 17:48:56 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 2365,
+  "name" : "The Last Enemy",
+  "author" : "Ivory Greenfelder",
+  "publication" : "Gefen Publishing House",
+  "category" : "Mythology",
+  "pages" : 677,
+  "price" : 0.01
+}
+
+# <-- END HTTP (151-byte body)
+###################################################################################
+							</pre>
+							</div>
+							<p>
+							<h3>Steps to reproduce</h3>
+							</p> 
+							To reproduce this bug please execute test case <u>TESTCASE-10</u>. 
+							To reproduce this error, you need to create the book multiple times using the POST endpoint and each time check whether the pages value is the same as what we sent.
+							For this purpose, you can use an automatic test <u>pl.damianlegutko.demo.api.test.crud.domain.books.BookPostTest</u> with method <u>create_new_default_book</u>, which will additionally randomly select the number of pages for us.
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="heading6">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+								<h2>#6 POST Book | Unhandled ID validation during Book creation</h2>
+							</button>
+						</h5>
+					</div>
+					<div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
+						<div class="card-body">
+							<p>
+							<h3>Severity</h3>
+							</p> 
+							<span class="label label-minor">Minor</span>
+							<p>
+							<h3>Expected behavior</h3>
+							</p> Each book should have a unique ID value. The uniqueness of the ID is guaranteed by the service. Therefore, we cannot send the book details with the selected ID number. And when this happens, it should be handled with feedback that the book being created should not contain an ID value.
+							<p>
+							<h3>Actual behavior</h3>
+							</p> When we send a book with an ID value, we get a default "Internal Server Error" with a response code of 500.<br>
+							<button class="btn btn-link" data-toggle="collapse" data-target="#logsCollapse6" aria-expanded="false" aria-controls="logsCollapse6">
+								<p>
+								<h3>Logs<b> --> [CLICK ON TO EXPAND]</b></h3>
+								</p>
+							</button>
+							<div id="logsCollapse6" class="collapse nested-collapse" aria-labelledby="heading6" data-parent="#collapse6">
+								<pre>
+
+# ################################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 173
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 618809255,
+  "name" : "Some Buried Caesar",
+  "author" : "Pan Eudoksja Kałuża",
+  "publication" : "Tarpaulin Sky Press",
+  "category" : "Narrative nonfiction",
+  "pages" : 346,
+  "price" : 79.24
+}
+
+# --> END POST (173-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 500 http://77.102.250.113:17354/api/v1/books (597ms)
+# Set-Cookie: JSESSIONID=82C8D70CC320C11E019D77E82D01EC09; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Thu, 29 Feb 2024 20:55:10 GMT
+# Connection: close
+# 
+
+{
+  "timestamp" : "2024-02-29T20:55:10.805+00:00",
+  "status" : 500,
+  "error" : "Internal Server Error",
+  "path" : "/api/v1/books"
+}
+
+# <-- END HTTP (113-byte body)
+###################################################################################
+
+
+
+							</pre>
+							</div>
+							<p>
+							<h3>Steps to reproduce</h3>
+							</p>						
+							To reproduce this bug please execute test case <u>TESTCASE-14</u>. 
+							To reproduce this error, you need to create the book multiple times using the POST endpoint and each time check whether the pages value is the same as what we sent.
+							For this purpose, you can use an automatic test <u>pl.damianlegutko.demo.api.test.crud.domain.books.BookPostTest</u> with method <u>create_new_book_with_set_not_existing_id</u>.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.7.12/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</body>
+</html>

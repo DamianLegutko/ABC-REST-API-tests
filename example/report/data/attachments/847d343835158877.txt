@@ -1,0 +1,8 @@
+{
+  "name" : "This Side of Paradise",
+  "author" : "Magdalene Stracke",
+  "publication" : "Anvil Press Poetry",
+  "category" : "Suspense/Thriller",
+  "pages" : 159,
+  "price" : 302.98
+}

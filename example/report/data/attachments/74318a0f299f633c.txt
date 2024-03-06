@@ -1,0 +1,8 @@
+{
+  "name" : "The Violent Bear It Away",
+  "author" : "Deetta Grady",
+  "publication" : "Hodder & Stoughton",
+  "category" : "Historical fiction",
+  "pages" : 387,
+  "price" : 33.94
+}

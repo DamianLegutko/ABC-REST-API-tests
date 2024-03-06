@@ -1,0 +1,8 @@
+{
+  "name" : "In a Glass Darkly",
+  "author" : "Duane Bechtelar",
+  "publication" : "United States Government Publishing Office",
+  "category" : "Suspense/Thriller",
+  "pages" : 697,
+  "price" : 101.62
+}

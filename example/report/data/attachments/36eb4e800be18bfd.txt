@@ -1,0 +1,8 @@
+{
+  "name" : "The Millstone",
+  "author" : "Anneliese Ullrich",
+  "publication" : "Bowes & Bowes",
+  "category" : "Crime/Detective",
+  "pages" : 190,
+  "price" : 240.32
+}

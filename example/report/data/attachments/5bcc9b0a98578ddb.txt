@@ -1,0 +1,9 @@
+{
+  "id" : 3303,
+  "name" : "Brandy of the Damned",
+  "author" : "Murray VonRueden V",
+  "publication" : "Harcourt Trade Publishers",
+  "category" : "Short story",
+  "pages" : 852,
+  "price" : 59.65
+}

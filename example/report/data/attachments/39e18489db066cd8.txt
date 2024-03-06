@@ -1,0 +1,8 @@
+{
+  "name" : "Number the Stars",
+  "author" : "Stefan Daugherty",
+  "publication" : "Breslov Research Institute",
+  "category" : "Mystery",
+  "pages" : 177,
+  "price" : 48.46
+}

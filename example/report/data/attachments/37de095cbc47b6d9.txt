@@ -1,0 +1,9 @@
+{
+  "id" : 3259,
+  "name" : "Unweaving the Rainbow",
+  "author" : "Terisa McKenzie",
+  "publication" : "Orion Books",
+  "category" : "Horror",
+  "pages" : 1929,
+  "price" : 0.45
+}

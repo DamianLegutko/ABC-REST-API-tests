@@ -1,0 +1,8 @@
+{
+  "name" : "The Little Foxes",
+  "author" : "Joe Crooks",
+  "publication" : "Bloomsbury Publishing Plc",
+  "category" : "Speech",
+  "pages" : 711,
+  "price" : 8.55
+}

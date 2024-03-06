@@ -1,0 +1,34 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> GET http://77.102.250.113:17354/api/v1/books/3274
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# --> END GET
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3274 (511ms)
+# Set-Cookie: JSESSIONID=3C2C53C6C63A29CD3DAEDA69A2F4681A; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:00:35 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3274,
+  "name" : "Now Sleeps the Crimson Petal",
+  "author" : "Sherwood Bergnaum",
+  "publication" : "Tachyon Publications",
+  "category" : "Folklore",
+  "pages" : 1,
+  "price" : 162.19
+}
+
+# <-- END HTTP (162-byte body)------------#######################################################################
+

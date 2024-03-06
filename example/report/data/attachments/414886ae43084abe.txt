@@ -1,0 +1,9 @@
+{
+  "id" : 3285,
+  "name" : "The Doors of Perception",
+  "author" : "Angelic Ratke",
+  "publication" : "Library of America",
+  "category" : "Classic",
+  "pages" : 505,
+  "price" : 57.81
+}

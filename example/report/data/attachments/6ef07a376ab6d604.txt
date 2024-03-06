@@ -1,0 +1,8 @@
+{
+  "name" : "Far From the Madding Crowd",
+  "author" : "Tashia Miller",
+  "publication" : "Pavilion Books",
+  "category" : "Comic/Graphic Novel",
+  "pages" : 301,
+  "price" : 238.58
+}

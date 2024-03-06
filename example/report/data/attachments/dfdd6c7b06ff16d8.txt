@@ -1,0 +1,48 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> PUT http://77.102.250.113:17354/api/v1/books/3241
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 174
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 3241,
+  "name" : "Waiting for the Barbarians",
+  "author" : "Harris Dickinson II",
+  "publication" : "New Holland Publishers",
+  "category" : "Realistic fiction",
+  "pages" : 71,
+  "price" : 204.09
+}
+
+# --> END PUT (174-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3241 (614ms)
+# Set-Cookie: JSESSIONID=88667C6C32EB43A8C03899F6DD7277B2; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:57:50 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3241,
+  "name" : "Waiting for the Barbarians",
+  "author" : "Harris Dickinson II",
+  "publication" : "New Holland Publishers",
+  "category" : "Realistic fiction",
+  "pages" : 71,
+  "price" : 204.09
+}
+
+# <-- END HTTP (174-byte body)------------#######################################################################
+

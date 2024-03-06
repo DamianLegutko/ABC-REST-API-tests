@@ -1,0 +1,8 @@
+{
+  "name" : "Far From the Madding Crowd",
+  "author" : "Tonie Runolfsdottir",
+  "publication" : "Martinus Nijhoff Publishers",
+  "category" : "Fable",
+  "pages" : 847,
+  "price" : 138.93
+}

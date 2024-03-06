@@ -1,0 +1,9 @@
+{
+  "id" : 3293,
+  "name" : " .,;:?!\\\"'()[]{}=+-*/",
+  "author" : " .,;:?!\\\"'()[]{}=+-*/",
+  "publication" : " .,;:?!\\\"'()[]{}=+-*/",
+  "category" : "Narrative nonfiction",
+  "pages" : 431,
+  "price" : 311.46
+}

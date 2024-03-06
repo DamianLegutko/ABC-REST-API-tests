@@ -1,0 +1,51 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 166
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "A Passage to India",
+  "author" : "Mrs. Edmond Miller",
+  "publication" : "Eerdmans Publishing",
+  "category" : "Narrative nonfiction",
+  "pages" : 431,
+  "price" : 311.46
+}
+
+# --> END POST (166-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (587ms)
+# Set-Cookie: JSESSIONID=532D802B55A655AFB7E5F2D223D4CC2C; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:01:05 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3293,
+  "name" : "A Passage to India",
+  "author" : "Mrs. Edmond Miller",
+  "publication" : "Eerdmans Publishing",
+  "category" : "Narrative nonfiction",
+  "pages" : 431,
+  "price" : 311.46
+}
+
+# <-- END HTTP (166-byte body)------------#######################################################################
+

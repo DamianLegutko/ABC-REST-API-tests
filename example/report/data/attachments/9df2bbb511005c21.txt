@@ -1,0 +1,9 @@
+{
+  "id" : 3237,
+  "name" : "A Passage to India",
+  "author" : "Isabella Flatley",
+  "publication" : "Harcourt Trade Publishers",
+  "category" : "Legend",
+  "pages" : 10000,
+  "price" : 171.84
+}

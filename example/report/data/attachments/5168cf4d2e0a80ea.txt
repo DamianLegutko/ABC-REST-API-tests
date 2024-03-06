@@ -1,0 +1,8 @@
+{
+  "name" : "The Road Less Traveled",
+  "author" : "Asa Spinka",
+  "publication" : "Anova Books",
+  "category" : "Classic",
+  "pages" : 317,
+  "price" : 153.17
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "To Your Scattered Bodies Go",
+  "author" : "Rocky Rolfson",
+  "publication" : "Chambers Harrap",
+  "category" : "Mythopoeia",
+  "pages" : 825,
+  "price" : 16.92
+}

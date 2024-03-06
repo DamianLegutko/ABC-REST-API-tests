@@ -1,0 +1,9 @@
+{
+  "id" : 3238,
+  "name" : "A Farewell to Arms",
+  "author" : "Genevieve Kemmer",
+  "publication" : "Chatto and Windus",
+  "category" : "Essay",
+  "pages" : 610,
+  "price" : 236.42
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "Edna O'Brien",
+  "author" : "Jacqulyn Rosenbaum",
+  "publication" : "Darakwon Press",
+  "category" : "Short story",
+  "pages" : 106,
+  "price" : 64.84
+}

@@ -1,0 +1,48 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> PUT http://77.102.250.113:17354/api/v1/books/3297
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 133
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 3297,
+  "name" : "The Violent Bear It Away",
+  "author" : "Ryan Senger",
+  "publication" : null,
+  "category" : "Humor",
+  "pages" : 670,
+  "price" : 105.66
+}
+
+# --> END PUT (133-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3297 (585ms)
+# Set-Cookie: JSESSIONID=91E5D44A1F768A5FD7D5074080A06BB7; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:01:12 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3297,
+  "name" : "The Violent Bear It Away",
+  "author" : "Ryan Senger",
+  "publication" : null,
+  "category" : "Humor",
+  "pages" : 670,
+  "price" : 105.66
+}
+
+# <-- END HTTP (133-byte body)------------#######################################################################
+

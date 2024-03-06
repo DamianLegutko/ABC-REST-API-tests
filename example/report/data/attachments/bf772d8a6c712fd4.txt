@@ -1,0 +1,8 @@
+{
+  "name" : "Ah, Wilderness!",
+  "author" : "Joseph Wunsch",
+  "publication" : "Hawthorne Books",
+  "category" : "Horror",
+  "pages" : 349,
+  "price" : 280.30
+}

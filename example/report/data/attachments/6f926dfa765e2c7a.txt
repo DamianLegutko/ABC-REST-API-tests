@@ -1,0 +1,8 @@
+{
+  "name" : "No Country for Old Men",
+  "author" : "Douglas Nienow",
+  "publication" : "Airiti Press",
+  "category" : "Textbook",
+  "pages" : 844,
+  "price" : 88.87
+}

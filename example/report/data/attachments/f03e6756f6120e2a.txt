@@ -1,0 +1,9 @@
+{
+  "id" : 3245,
+  "name" : "Wildfire at Midnight",
+  "author" : "Lenny Schmitt",
+  "publication" : "New Holland Publishers",
+  "category" : "Humor",
+  "pages" : 700,
+  "price" : 149.38
+}

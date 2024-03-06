@@ -1,0 +1,8 @@
+{
+  "name" : "In Death Ground",
+  "author" : "Mr. Wilburn Feeney",
+  "publication" : "Felony & Mayhem Press",
+  "category" : "Fantasy",
+  "pages" : 145,
+  "price" : 246.97
+}

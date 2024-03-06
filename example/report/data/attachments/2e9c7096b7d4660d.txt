@@ -1,0 +1,8 @@
+{
+  "name" : "The House of Mirth",
+  "author" : "Priscila Jakubowski",
+  "publication" : "Tammi",
+  "category" : "Horror",
+  "pages" : 441,
+  "price" : 77.52
+}

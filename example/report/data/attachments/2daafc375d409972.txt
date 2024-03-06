@@ -1,0 +1,9 @@
+{
+  "id" : 3301,
+  "name" : "A Passage to India",
+  "author" : "Melissia Toy",
+  "publication" : "Ballantine Books",
+  "category" : "Classic",
+  "pages" : 582,
+  "price" : 249.21
+}

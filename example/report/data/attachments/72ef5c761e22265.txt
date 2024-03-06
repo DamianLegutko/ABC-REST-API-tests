@@ -1,0 +1,47 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 181
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 602,
+  "name" : "In a Glass Darkly",
+  "author" : "Duane Bechtelar",
+  "publication" : "United States Government Publishing Office",
+  "category" : "Suspense/Thriller",
+  "pages" : 697,
+  "price" : 101.62
+}
+
+# --> END POST (181-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 500 http://77.102.250.113:17354/api/v1/books (609ms)
+# Set-Cookie: JSESSIONID=B7324C0C84B6D5588D8DA38E4C4B1B99; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:00:40 GMT
+# Connection: close
+# 
+
+{
+  "timestamp" : "2024-03-03T13:00:40.328+00:00",
+  "status" : 500,
+  "error" : "Internal Server Error",
+  "path" : "/api/v1/books"
+}
+
+# <-- END HTTP (113-byte body)------------#######################################################################
+

@@ -1,0 +1,8 @@
+{
+  "name" : "Lilies of the Field",
+  "author" : "Gregorio Wiza MD",
+  "publication" : "Shoemaker & Hoard Publishers",
+  "category" : "Fantasy",
+  "pages" : 662,
+  "price" : 40.58
+}

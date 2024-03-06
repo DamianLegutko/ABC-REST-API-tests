@@ -1,0 +1,8 @@
+{
+  "name" : "A Passage to India",
+  "author" : "Isabella Flatley",
+  "publication" : "Harcourt Trade Publishers",
+  "category" : "Legend",
+  "pages" : 896,
+  "price" : 171.84
+}

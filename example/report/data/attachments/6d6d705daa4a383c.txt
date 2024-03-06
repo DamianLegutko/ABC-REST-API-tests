@@ -1,0 +1,47 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 137
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "The Far-Distant Oxus",
+  "author" : "Corene Muller",
+  "publication" : "Borgo Press",
+  "category" : null,
+  "pages" : 789,
+  "price" : 143.98
+}
+
+# --> END POST (137-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 500 http://77.102.250.113:17354/api/v1/books (596ms)
+# Set-Cookie: JSESSIONID=54CABEE2DC61BF712126FBC560BD3AE5; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:57:30 GMT
+# Connection: close
+# 
+
+{
+  "timestamp" : "2024-03-03T12:57:30.274+00:00",
+  "status" : 500,
+  "error" : "Internal Server Error",
+  "path" : "/api/v1/books"
+}
+
+# <-- END HTTP (113-byte body)------------#######################################################################
+

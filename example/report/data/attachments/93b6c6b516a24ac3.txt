@@ -1,0 +1,9 @@
+{
+  "id" : 3261,
+  "name" : "Endless Night",
+  "author" : "Aline Reichert",
+  "publication" : "Koren Publishers Jerusalem",
+  "category" : "Humor",
+  "pages" : 703,
+  "price" : 191.10
+}

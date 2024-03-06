@@ -1,0 +1,8 @@
+{
+  "name" : "In a Dry Season",
+  "author" : "Assunta Abbott",
+  "publication" : "Gefen Publishing House",
+  "category" : "Metafiction",
+  "pages" : 983,
+  "price" : 3.02
+}

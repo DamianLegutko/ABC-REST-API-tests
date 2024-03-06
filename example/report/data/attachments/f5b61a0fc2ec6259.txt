@@ -1,0 +1,8 @@
+{
+  "name" : "Shall not Perish",
+  "author" : "Dr. Shirely Conroy",
+  "publication" : "Sidgwick & Jackson",
+  "category" : "Tall tale",
+  "pages" : 592,
+  "price" : 90.00
+}

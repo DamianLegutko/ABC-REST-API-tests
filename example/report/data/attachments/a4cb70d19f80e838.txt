@@ -1,0 +1,8 @@
+{
+  "name" : "Paths of Glory",
+  "author" : "Lacy Jacobs",
+  "publication" : "Barrie & Jenkins",
+  "category" : "Mythopoeia",
+  "pages" : 706,
+  "price" : 45.48
+}

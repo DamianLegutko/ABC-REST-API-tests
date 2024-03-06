@@ -1,0 +1,47 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 135
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "Behold the Man",
+  "author" : "Chris Kunde",
+  "publication" : "St. Martin's Press",
+  "category" : null,
+  "pages" : 997,
+  "price" : 56.5
+}
+
+# --> END POST (135-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 500 http://77.102.250.113:17354/api/v1/books (590ms)
+# Set-Cookie: JSESSIONID=98B2F01E3D27D44C623B0D33DC348B9B; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:00:30 GMT
+# Connection: close
+# 
+
+{
+  "timestamp" : "2024-03-03T13:00:30.832+00:00",
+  "status" : 500,
+  "error" : "Internal Server Error",
+  "path" : "/api/v1/books"
+}
+
+# <-- END HTTP (113-byte body)------------#######################################################################
+

@@ -1,0 +1,34 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> GET http://77.102.250.113:17354/api/v1/books/3240
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# --> END GET
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3240 (502ms)
+# Set-Cookie: JSESSIONID=4FDBCB68071CD97909DC23C04BE52C8D; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:57:49 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3240,
+  "name" : "The Daffodil Sky",
+  "author" : "Mrs. Robbie Lowe",
+  "publication" : "Pantheon Books at Random House",
+  "category" : "Horror",
+  "pages" : 678,
+  "price" : 0.21
+}
+
+# <-- END HTTP (157-byte body)------------#######################################################################
+

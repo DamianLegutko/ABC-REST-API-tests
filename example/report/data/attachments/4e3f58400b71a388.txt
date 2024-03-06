@@ -1,0 +1,8 @@
+{
+  "name" : "Of Human Bondage",
+  "author" : "Mrs. Raisa Hayes",
+  "publication" : "Chatto and Windus",
+  "category" : "Short story",
+  "pages" : 684,
+  "price" : 328.48
+}

@@ -1,0 +1,9 @@
+{
+  "id" : 3252,
+  "name" : "The Heart Is a Lonely Hunter",
+  "author" : "Jordan Shields",
+  "publication" : "Banner of Truth Trust",
+  "category" : "Metafiction",
+  "pages" : 223,
+  "price" : 258.63
+}

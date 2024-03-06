@@ -1,0 +1,9 @@
+{
+  "id" : 3305,
+  "name" : "Great Work of Time",
+  "author" : "Mr. Lyle Murazik",
+  "publication" : "Marion Boyars Publishers",
+  "category" : "Legend",
+  "pages" : 859,
+  "price" : 134.72
+}

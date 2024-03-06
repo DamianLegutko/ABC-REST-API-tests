@@ -1,0 +1,8 @@
+{
+  "name" : "Butter In a Lordly Dish",
+  "author" : "Rhona Marquardt",
+  "publication" : "Scholastic Press",
+  "category" : "Fanfiction",
+  "pages" : 759,
+  "price" : 118.55
+}

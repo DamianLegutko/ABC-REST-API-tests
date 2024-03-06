@@ -1,0 +1,8 @@
+{
+  "name" : "Jesting Pilate",
+  "author" : "Marcelina Pfannerstill",
+  "publication" : "Harvard University Press",
+  "category" : "Fantasy",
+  "pages" : 765,
+  "price" : 308.88
+}

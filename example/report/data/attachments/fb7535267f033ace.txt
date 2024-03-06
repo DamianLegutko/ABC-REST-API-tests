@@ -1,0 +1,9 @@
+{
+  "id" : 3265,
+  "name" : "Terrible Swift Sword",
+  "author" : "Kerrie Kreiger",
+  "publication" : "Zondervan",
+  "category" : "Biography/Autobiography",
+  "pages" : 266,
+  "price" : 272.90
+}

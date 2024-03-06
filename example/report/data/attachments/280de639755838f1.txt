@@ -1,0 +1,34 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> GET http://77.102.250.113:17354/api/v1/books/3246
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# --> END GET
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3246 (498ms)
+# Set-Cookie: JSESSIONID=EAD37AAA53AC35DE187F10DCDB1316BE; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:58:01 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3246,
+  "name" : "Postern of Fate",
+  "author" : "Kathryn Botsford",
+  "publication" : "Charles Scribner's Sons",
+  "category" : "Textbook",
+  "pages" : 166,
+  "price" : 80.27
+}
+
+# <-- END HTTP (152-byte body)------------#######################################################################
+

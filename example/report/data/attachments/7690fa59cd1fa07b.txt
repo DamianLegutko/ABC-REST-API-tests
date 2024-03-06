@@ -1,0 +1,8 @@
+{
+  "name" : "Gone with the Wind",
+  "author" : "Mr. Kieth Borer",
+  "publication" : "Orion Books",
+  "category" : "Fiction narrative",
+  "pages" : 601,
+  "price" : 309.81
+}

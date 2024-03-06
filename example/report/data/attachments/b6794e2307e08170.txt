@@ -1,0 +1,8 @@
+{
+  "name" : "The Last Enemy",
+  "author" : "Ms. Gary Reinger",
+  "publication" : "Faber and Faber",
+  "category" : "Classic",
+  "pages" : 921,
+  "price" : 150.65
+}

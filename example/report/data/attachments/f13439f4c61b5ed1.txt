@@ -1,0 +1,8 @@
+{
+  "name" : "Such, Such Were the Joys",
+  "author" : "Devin MacGyver",
+  "publication" : "Penguin Books",
+  "category" : "Realistic fiction",
+  "pages" : 663,
+  "price" : 170.92
+}

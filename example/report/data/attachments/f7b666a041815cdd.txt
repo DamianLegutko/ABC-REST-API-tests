@@ -1,0 +1,9 @@
+{
+  "id" : 3294,
+  "name" : "Sleep the Brave",
+  "author" : "Ms. Larae Ankunding",
+  "publication" : "Left Book Club",
+  "category" : "Western",
+  "pages" : 158,
+  "price" : 271.91
+}

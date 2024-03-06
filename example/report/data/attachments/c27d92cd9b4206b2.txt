@@ -1,0 +1,51 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 160
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "I Sing the Body Electric",
+  "author" : "Keven Kovacek",
+  "publication" : "Bloodaxe Books",
+  "category" : "Narrative nonfiction",
+  "pages" : 598,
+  "price" : null
+}
+
+# --> END POST (160-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (630ms)
+# Set-Cookie: JSESSIONID=B56626C77599FDFF2B77BB6401231E9B; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:00:42 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3280,
+  "name" : "I Sing the Body Electric",
+  "author" : "Keven Kovacek",
+  "publication" : "Bloodaxe Books",
+  "category" : "Narrative nonfiction",
+  "pages" : 598,
+  "price" : 0.0
+}
+
+# <-- END HTTP (159-byte body)------------#######################################################################
+

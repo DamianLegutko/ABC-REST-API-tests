@@ -1,0 +1,9 @@
+{
+  "id" : 3234,
+  "name" : "ąęłńóśźżĄĘŁŃÓŚŹŻ",
+  "author" : "################",
+  "publication" : "################",
+  "category" : "Science fiction",
+  "pages" : 707,
+  "price" : 311.90
+}

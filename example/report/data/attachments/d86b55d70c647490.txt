@@ -1,0 +1,8 @@
+{
+  "name" : "After Many a Summer Dies the Swan",
+  "author" : "Christeen Jacobson DDS",
+  "publication" : "Charles Scribner's Sons",
+  "category" : "Crime/Detective",
+  "pages" : 864,
+  "price" : 214.63
+}

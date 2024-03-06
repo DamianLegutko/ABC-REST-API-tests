@@ -1,0 +1,8 @@
+{
+  "name" : "Tender Is the Night",
+  "author" : "Mrs. Wilhemina Spencer",
+  "publication" : "Paulist Press",
+  "category" : "Realistic fiction",
+  "pages" : 606,
+  "price" : 31.88
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "The Violent Bear It Away",
+  "author" : "Verlene Christiansen",
+  "publication" : "D. Appleton & Company",
+  "category" : "Legend",
+  "pages" : 146,
+  "price" : 195.14
+}

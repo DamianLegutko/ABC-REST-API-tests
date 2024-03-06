@@ -1,0 +1,8 @@
+{
+  "name" : "O Jerusalem!",
+  "author" : "Buford Weissnat",
+  "publication" : "Shambhala Publications",
+  "category" : "Mystery",
+  "pages" : 980,
+  "price" : 276.87
+}

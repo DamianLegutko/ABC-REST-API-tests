@@ -1,0 +1,9 @@
+{
+  "id" : 3288,
+  "name" : "Quo Vadis",
+  "author" : "Ellis Johnston DDS",
+  "publication" : "Book League of America",
+  "category" : "Textbook",
+  "pages" : 459,
+  "price" : 120.88
+}

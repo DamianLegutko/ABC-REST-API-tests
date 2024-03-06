@@ -1,0 +1,9 @@
+{
+  "id" : 3245,
+  "name" : "The Way Through the Woods",
+  "author" : "Lenny Schmitt",
+  "publication" : "New Holland Publishers",
+  "category" : "Humor",
+  "pages" : 700,
+  "price" : 149.38
+}

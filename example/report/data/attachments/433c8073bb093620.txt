@@ -1,0 +1,51 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 164
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "The House of Mirth",
+  "author" : "Kenneth Muller",
+  "publication" : "Bloomsbury Publishing Plc",
+  "category" : "Fiction narrative",
+  "pages" : 520,
+  "price" : 37.6
+}
+
+# --> END POST (164-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (604ms)
+# Set-Cookie: JSESSIONID=2130F6C9D7666A4B3063FB9F76D26271; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:01:00 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3290,
+  "name" : "The House of Mirth",
+  "author" : "Kenneth Muller",
+  "publication" : "Bloomsbury Publishing Plc",
+  "category" : "Fiction narrative",
+  "pages" : 520,
+  "price" : 37.6000001
+}
+
+# <-- END HTTP (169-byte body)------------#######################################################################
+

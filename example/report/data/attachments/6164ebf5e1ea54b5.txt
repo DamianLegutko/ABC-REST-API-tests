@@ -1,0 +1,48 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> PUT http://77.102.250.113:17354/api/v1/books/3256
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 142
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 3256,
+  "name" : "The Man Within",
+  "author" : "Blanche Beer",
+  "publication" : "Mandrake Press",
+  "category" : "Tall tale",
+  "pages" : 872,
+  "price" : 10000.0
+}
+
+# --> END PUT (142-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3256 (608ms)
+# Set-Cookie: JSESSIONID=C87C1DA1D30197BE0D0CB0854B51F3FC; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:58:15 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3256,
+  "name" : "The Man Within",
+  "author" : "Blanche Beer",
+  "publication" : "Mandrake Press",
+  "category" : "Tall tale",
+  "pages" : 872,
+  "price" : 10000.0
+}
+
+# <-- END HTTP (141-byte body)------------#######################################################################
+

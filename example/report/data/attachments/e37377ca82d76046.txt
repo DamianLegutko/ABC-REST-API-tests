@@ -1,0 +1,9 @@
+{
+  "id" : 3274,
+  "name" : "Now Sleeps the Crimson Petal",
+  "author" : "Sherwood Bergnaum",
+  "publication" : "Tachyon Publications",
+  "category" : "Folklore",
+  "pages" : 1,
+  "price" : 162.19
+}

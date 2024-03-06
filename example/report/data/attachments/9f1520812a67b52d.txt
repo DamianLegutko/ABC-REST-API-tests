@@ -1,0 +1,8 @@
+{
+  "name" : "The Far-Distant Oxus",
+  "author" : "Corene Muller",
+  "publication" : "Borgo Press",
+  "category" : "Fanfiction",
+  "pages" : 789,
+  "price" : 143.98
+}

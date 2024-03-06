@@ -1,0 +1,8 @@
+{
+  "name" : "The Sun Also Rises",
+  "author" : "Emile Spencer",
+  "publication" : "Lion Hudson",
+  "category" : "Mythopoeia",
+  "pages" : 795,
+  "price" : 74.04
+}

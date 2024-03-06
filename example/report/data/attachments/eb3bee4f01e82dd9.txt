@@ -1,0 +1,9 @@
+{
+  "id" : 3269,
+  "name" : "When the Green Woods Laugh",
+  "author" : "Dr. Loise Gerhold",
+  "publication" : "Chatto and Windus",
+  "category" : "Humor",
+  "pages" : 333,
+  "price" : 36.75
+}

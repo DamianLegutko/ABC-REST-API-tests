@@ -1,0 +1,8 @@
+{
+  "name" : "Quo Vadis",
+  "author" : "Katharyn Heidenreich",
+  "publication" : "Hamish Hamilton",
+  "category" : "Mythopoeia",
+  "pages" : 113,
+  "price" : 196.93
+}

@@ -1,0 +1,9 @@
+{
+  "id" : 3293,
+  "name" : "A Passage to India",
+  "author" : "Mrs. Edmond Miller",
+  "publication" : "Eerdmans Publishing",
+  "category" : "Narrative nonfiction",
+  "pages" : 431,
+  "price" : 311.46
+}

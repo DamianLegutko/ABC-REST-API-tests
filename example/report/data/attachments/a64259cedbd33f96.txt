@@ -1,0 +1,9 @@
+{
+  "id" : 3287,
+  "name" : "Taming a Sea Horse",
+  "author" : "Synthia Gibson",
+  "publication" : "Macmillan Publishers",
+  "category" : "Classic",
+  "pages" : 738,
+  "price" : 205.69
+}

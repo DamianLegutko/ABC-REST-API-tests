@@ -1,0 +1,34 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> GET http://77.102.250.113:17354/api/v1/books/3285
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# --> END GET
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3285 (518ms)
+# Set-Cookie: JSESSIONID=42BE23E960104BC648DD86EC9DE1AFC9; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:00:52 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3285,
+  "name" : "The Doors of Perception",
+  "author" : "Angelic Ratke",
+  "publication" : "Library of America",
+  "category" : "Classic",
+  "pages" : 505,
+  "price" : 57.81
+}
+
+# <-- END HTTP (151-byte body)------------#######################################################################
+

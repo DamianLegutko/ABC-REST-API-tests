@@ -1,0 +1,9 @@
+{
+  "id" : 3230,
+  "name" : "Down to a Sunless Sea",
+  "author" : "Chanell Labadie",
+  "publication" : "Ten Speed Press",
+  "category" : "Western",
+  "pages" : 1,
+  "price" : 41.37
+}

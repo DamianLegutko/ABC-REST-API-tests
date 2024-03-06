@@ -1,0 +1,48 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> PUT http://77.102.250.113:17354/api/v1/books/3239
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 157
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 3239,
+  "name" : "A Time to Kill",
+  "author" : "Ms. Toya Wuckert",
+  "publication" : "Paulist Press",
+  "category" : "Incorrect book category",
+  "pages" : 480,
+  "price" : 147.54
+}
+
+# --> END PUT (157-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3239 (601ms)
+# Set-Cookie: JSESSIONID=B98D053F0902AA331B837282868E4EB2; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:57:47 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3239,
+  "name" : "A Time to Kill",
+  "author" : "Ms. Toya Wuckert",
+  "publication" : "Paulist Press",
+  "category" : "Incorrect book category",
+  "pages" : 480,
+  "price" : 147.54
+}
+
+# <-- END HTTP (157-byte body)------------#######################################################################
+

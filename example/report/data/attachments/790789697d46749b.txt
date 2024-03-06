@@ -1,0 +1,8 @@
+{
+  "name" : "The Line of Beauty",
+  "author" : "Elton Graham",
+  "publication" : "Airiti Press",
+  "category" : "Realistic fiction",
+  "pages" : 351,
+  "price" : 269.41
+}

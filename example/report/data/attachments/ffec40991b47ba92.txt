@@ -1,0 +1,8 @@
+{
+  "name" : "Shall not Perish",
+  "author" : "Yun Hermann",
+  "publication" : "Mascot Books",
+  "category" : "Humor",
+  "pages" : 739,
+  "price" : 40.03
+}

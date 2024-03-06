@@ -1,0 +1,8 @@
+{
+  "name" : "Behold the Man",
+  "author" : "Normand Ward",
+  "publication" : "D. Appleton & Company",
+  "category" : "Fiction in verse",
+  "pages" : 807,
+  "price" : 180.22
+}

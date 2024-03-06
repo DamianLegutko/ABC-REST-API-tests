@@ -1,0 +1,9 @@
+{
+  "id" : 3247,
+  "name" : "A Passage to India",
+  "author" : "Regan Rath",
+  "publication" : "Shire Books",
+  "category" : "Fable",
+  "pages" : 104,
+  "price" : 205.19
+}

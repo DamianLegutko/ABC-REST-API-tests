@@ -1,0 +1,48 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> PUT http://77.102.250.113:17354/api/v1/books/3255
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 155
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : 3255,
+  "name" : "Blue Remembered Earth",
+  "author" : "Belinda Rohan",
+  "publication" : "Tarpaulin Sky Press",
+  "category" : "Tall tale",
+  "pages" : 283,
+  "price" : 10000.01
+}
+
+# --> END PUT (155-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books/3255 (609ms)
+# Set-Cookie: JSESSIONID=03616852E02ABBE6C6E08AEFBF352953; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:58:14 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3255,
+  "name" : "Blue Remembered Earth",
+  "author" : "Belinda Rohan",
+  "publication" : "Tarpaulin Sky Press",
+  "category" : "Tall tale",
+  "pages" : 283,
+  "price" : 10000.01
+}
+
+# <-- END HTTP (155-byte body)------------#######################################################################
+

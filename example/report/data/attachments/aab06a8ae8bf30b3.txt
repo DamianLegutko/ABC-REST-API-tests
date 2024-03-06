@@ -1,0 +1,9 @@
+{
+  "id" : 3220,
+  "name" : "Antic Hay",
+  "author" : "Kirstie Block",
+  "publication" : "Apress",
+  "category" : "Horror",
+  "pages" : 168,
+  "price" : 212.92
+}

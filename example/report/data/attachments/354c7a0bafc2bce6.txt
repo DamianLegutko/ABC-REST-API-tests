@@ -1,0 +1,8 @@
+{
+  "name" : "The Heart Is Deceitful Above All Things",
+  "author" : "Anglea Pacocha",
+  "publication" : "Cengage Learning",
+  "category" : "Fantasy",
+  "pages" : 751,
+  "price" : 196.28
+}

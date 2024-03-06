@@ -1,0 +1,8 @@
+{
+  "name" : "Waiting for the Barbarians",
+  "author" : "Miss Michel Schinner",
+  "publication" : "New Holland Publishers",
+  "category" : "Realistic fiction",
+  "pages" : 71,
+  "price" : 204.09
+}

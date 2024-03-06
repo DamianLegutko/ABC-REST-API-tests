@@ -1,0 +1,9 @@
+{
+  "id" : 3222,
+  "name" : "Vile Bodies",
+  "author" : "Matt Tillman DVM",
+  "publication" : "Tarpaulin Sky Press",
+  "category" : "Realistic fiction",
+  "pages" : 323,
+  "price" : 295.37
+}

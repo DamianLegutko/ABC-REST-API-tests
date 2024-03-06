@@ -1,0 +1,9 @@
+{
+  "id" : 3291,
+  "name" : "Jacob Have I Loved",
+  "author" : "Titus Christiansen",
+  "publication" : "Kogan Page",
+  "category" : "Mythopoeia",
+  "pages" : 357,
+  "price" : 196.88
+}

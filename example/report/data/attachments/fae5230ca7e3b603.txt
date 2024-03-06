@@ -1,0 +1,9 @@
+{
+  "id" : 3289,
+  "name" : "The Sun Also Rises",
+  "author" : "Elbert Leuschke",
+  "publication" : "Black Library",
+  "category" : "Fantasy",
+  "pages" : 146,
+  "price" : 70.27
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "Behold the Man",
+  "author" : "Chris Kunde",
+  "publication" : "St. Martin's Press",
+  "category" : "Folklore",
+  "pages" : 997,
+  "price" : 56.50
+}

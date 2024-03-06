@@ -1,0 +1,51 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 151
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "Wildfire at Midnight",
+  "author" : "Lenny Schmitt",
+  "publication" : "New Holland Publishers",
+  "category" : "Humor",
+  "pages" : 700,
+  "price" : 149.38
+}
+
+# --> END POST (151-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (630ms)
+# Set-Cookie: JSESSIONID=48272ABCDD4F111EC755E817774A4607; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:57:57 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3245,
+  "name" : "Wildfire at Midnight",
+  "author" : "Lenny Schmitt",
+  "publication" : "New Holland Publishers",
+  "category" : "Humor",
+  "pages" : 700,
+  "price" : 149.38
+}
+
+# <-- END HTTP (151-byte body)------------#######################################################################
+

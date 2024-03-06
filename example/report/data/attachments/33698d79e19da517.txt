@@ -1,0 +1,8 @@
+{
+  "name" : "This Lime Tree Bower",
+  "author" : "Boyd Altenwerth III",
+  "publication" : "Butterworth-Heinemann",
+  "category" : "Biography/Autobiography",
+  "pages" : 317,
+  "price" : 186.63
+}

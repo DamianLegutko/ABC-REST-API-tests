@@ -1,0 +1,8 @@
+{
+  "name" : "A Catskill Eagle",
+  "author" : "Lesli Lehner",
+  "publication" : "Viking Press",
+  "category" : "Mythopoeia",
+  "pages" : 22,
+  "price" : 250.99
+}

@@ -1,0 +1,9 @@
+{
+  "id" : 3303,
+  "name" : "The Wind's Twelve Quarters",
+  "author" : "Napoleon Rath",
+  "publication" : "Tammi",
+  "category" : "Short story",
+  "pages" : 954,
+  "price" : 0.06
+}

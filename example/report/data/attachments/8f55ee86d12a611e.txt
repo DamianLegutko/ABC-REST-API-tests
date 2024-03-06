@@ -1,0 +1,8 @@
+{
+  "name" : "Blue Remembered Earth",
+  "author" : "Abdul Prohaska",
+  "publication" : "Apress",
+  "category" : "Mythopoeia",
+  "pages" : 417,
+  "price" : 115.71
+}

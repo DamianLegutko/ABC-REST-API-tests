@@ -1,0 +1,8 @@
+{
+  "name" : "The Soldier's Art",
+  "author" : "Garret Schoen",
+  "publication" : "Athabasca University Press",
+  "category" : "Mystery",
+  "pages" : 959,
+  "price" : 300.93
+}

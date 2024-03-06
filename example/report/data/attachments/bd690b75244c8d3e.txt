@@ -1,0 +1,51 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> POST http://77.102.250.113:17354/api/v1/books
+# Content-Type: application/json; charset=UTF-8
+# Content-Length: 141
+# Accept: */*
+# Cache-Control: no-cache
+# Accept: text/plain
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# 
+
+{
+  "id" : null,
+  "name" : "The Road Less Traveled",
+  "author" : "Asa Spinka",
+  "publication" : "Anova Books",
+  "category" : "Classic",
+  "pages" : 317,
+  "price" : 153.17
+}
+
+# --> END POST (141-byte body)
+# ---------------------------------------------------------------------------------
+
+# <-- 200 http://77.102.250.113:17354/api/v1/books (585ms)
+# Set-Cookie: JSESSIONID=F782DCAA8ED68CA17F6B674E62E8FC85; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 13:01:15 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "id" : 3300,
+  "name" : "The Road Less Traveled",
+  "author" : "Asa Spinka",
+  "publication" : "Anova Books",
+  "category" : "Classic",
+  "pages" : 317,
+  "price" : 153.17
+}
+
+# <-- END HTTP (141-byte body)------------#######################################################################
+

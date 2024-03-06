@@ -1,0 +1,8 @@
+{
+  "name" : "Some Buried Caesar",
+  "author" : "Viki Mitchell",
+  "publication" : "Left Book Club",
+  "category" : "Comic/Graphic Novel",
+  "pages" : 126,
+  "price" : 256.75
+}

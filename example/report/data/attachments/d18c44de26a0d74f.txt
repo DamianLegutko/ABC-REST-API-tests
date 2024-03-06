@@ -1,0 +1,8 @@
+{
+  "name" : "Bury My Heart at Wounded Knee",
+  "author" : "Clarissa Raynor IV",
+  "publication" : "Palgrave Macmillan",
+  "category" : "Horror",
+  "pages" : 206,
+  "price" : 309.27
+}

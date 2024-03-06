@@ -1,0 +1,31 @@
+# 
+----------######################## R E Q U E S T ##################################
+# --> GET http://77.102.250.113:17354/api/v1/books/1943142899
+# Authorization: Basic dXNlcjQ6aGxCNVUxckE=
+# --> END GET
+# ---------------------------------------------------------------------------------
+
+# <-- 404 http://77.102.250.113:17354/api/v1/books/1943142899 (527ms)
+# Set-Cookie: JSESSIONID=A4E933BC80E1E56EC03CBE4E3155152A; Path=/; HttpOnly
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1; mode=block
+# Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+# Pragma: no-cache
+# Expires: 0
+# X-Frame-Options: DENY
+# Content-Type: application/json
+# Transfer-Encoding: chunked
+# Date: Sun, 03 Mar 2024 12:57:10 GMT
+# Keep-Alive: timeout=60
+# Connection: keep-alive
+# 
+
+{
+  "timestamp" : "2024-03-03T12:57:10.200+00:00",
+  "status" : 404,
+  "error" : "Not Found",
+  "path" : "/api/v1/books/1943142899"
+}
+
+# <-- END HTTP (112-byte body)------------#######################################################################
+

@@ -1,0 +1,8 @@
+{
+  "name" : "For Whom the Bell Tolls",
+  "author" : "Sheree Pagac PhD",
+  "publication" : "Borgo Press",
+  "category" : "Historical fiction",
+  "pages" : 907,
+  "price" : 4.06
+}

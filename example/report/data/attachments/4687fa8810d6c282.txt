@@ -1,0 +1,8 @@
+{
+  "name" : "Terrible Swift Sword",
+  "author" : "Rolanda Streich III",
+  "publication" : "Sidgwick & Jackson",
+  "category" : "Realistic fiction",
+  "pages" : 526,
+  "price" : 318.08
+}
