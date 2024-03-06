@@ -1,0 +1,38 @@
+services:
+  LuxsoftBooks:
+    url:
+      baseUrl: http://77.102.250.113:17354
+    users:
+      - authType: BASIC_AUTH
+        username: user1
+        password: password1
+      - isDefault: false
+        authType: BASIC_AUTH
+        username: user2
+        password: password2
+      - authType: BASIC_AUTH
+        username: user3
+        password: password3
+      - isDefault: true
+        authType: BASIC_AUTH
+        username: user4
+        password: hlB5U1rA
+  MyCustomService:
+    url:
+      baseUrl: http://MyCustomService.com
+    users:
+      - authType: BASIC_AUTH
+        username: user1
+        password: password1
+      - isDefault: false
+        authType: BASIC_AUTH
+        username: user2
+        password: password2
+      - isDefault: true
+        authType: BASIC_AUTH
+        username: user3
+        password: password3
+allure:
+  addLogsToReport: true
+dataGenerator:
+  locale: us
